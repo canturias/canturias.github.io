@@ -1,0 +1,18 @@
+@media (min-width: 576px) {
+  header a img {
+    width: 32px;
+  }
+
+  .about-section {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .profile-picture {
+    margin-right: 24px;
+  }
+
+  .projects-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
