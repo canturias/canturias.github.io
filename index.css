@@ -280,3 +280,10 @@ footer {
 	z-index: 2;
 	font-size: 0.75em;
 }
+
+.noclick:hover {
+	cursor: not-allowed;
+	background-color: rgba(0, 0, 0, 0.5);
+	filter: brightness(85%);
+	transform: scale(98%);
+}
